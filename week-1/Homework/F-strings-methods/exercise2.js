@@ -1,3 +1,5 @@
-const name = " Daniel  ";
+let comment =" Daniel  ";
+let lengthname = comment.length;
+console.log((`My name is ${comment.trim()} and is ${lengthname} characters long`));
 
-console.log(message);
+// .trim para formularios , email,
