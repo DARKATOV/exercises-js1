@@ -19,3 +19,7 @@ const r2 = `${p2} ${final2} ${porcentaje} `;
 
 console.log(r1);
 console.log(r2);
+
+
+// tambien se puede hacer la impresion directa sin tanta variables como 
+//console.log ( "porcentaje de estudiantes" + porcentajementor + "%" por ejemplo )
