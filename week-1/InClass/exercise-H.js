@@ -12,6 +12,35 @@ console.log(formulario("Antonio" , "Perez" , 1.70 , 90));
 
 ///////////////////////////////////////////
 
+
+function suma(a,b){
+    return a+b;
+}
+console.log(suma(5,2));
+
+function resta(a,b)
+{
+    return a-b;
+}
+
+console.log(resta(5,2));
+
+function multiplicacion(a,b)
+{
+    return a*b;
+}
+
+console.log(multiplicacion(5,2));
+
+function division(a,b)
+{
+    return a/b;
+}
+
+console.log(division(5,2));
+
+//// pruebas calculadoras y parametros 
+
 function calculator(a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o)
 {
     var total = a+b+c+d+e+f+g+h+i+j+k+l+m+n+ñ+o;
