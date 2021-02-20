@@ -25,3 +25,4 @@ let operador = true;
 
 console.log(typeof operador);
 
+
