@@ -11,12 +11,12 @@ var danielsRole = "mentor";
 
 if ( danielsRole === "mentor") {
 
-  console-console.log( `Hi, I´m ${name}, I´m a mentor`);
+  console.log( `Hi, I´m ${name}, I´m a mentor`);
 }
 
 else {
 
-  console-console.log( `Hi, I´m ${name}, I´m a student`);
+  console.log( `Hi, I´m ${name}, I´m a student`);
 
 }
 
