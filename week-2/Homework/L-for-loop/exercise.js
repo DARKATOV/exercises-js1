@@ -6,10 +6,22 @@
 
 */
 
-let n = 10;
+let n = 5;
 
 function sumTillNum(num){
+	
+	var total =0 ; 	
+	for (var i=0; i<=n ; i ++ ) {
+	total += i ; 
+	}
+	return total ; 
+	
+	
 	//your code here
+	
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+
+
+
