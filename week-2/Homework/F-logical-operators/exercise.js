@@ -52,7 +52,7 @@ cssOrHtmlAbove5 = false;
 
 console.log("Is Html knowledge above 5?", htmlLevelAbove5);
 console.log("Is CSS knowledge above 5?", cssLevelAbove5);
-console.log("Is Html And CSS knowledge above 5?", cssAndHtmlAbove5);
+console.log("Is Html And CSS knowledge above 5?", cssAndHtmlAboves5);
 console.log(
   "Is either Html or CSS knowledge above 5?",
   cssOrHtmlAbove5
