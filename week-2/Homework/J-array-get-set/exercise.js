@@ -9,10 +9,30 @@ function first(arr) {
   return arr; // complete this statement
 }
 
-function last(arr){
-  arr=arr[0];
-  return arr[2]; // complete this statement
+function last(rarr){
+  var varr = rarr[0]; 
+  type= typeof varr;
+
+  if (type = String) {
+  var f = rarr[2];
+  return f; // complete this statement
 }
+  return rarr[2]; // complete this statement
+}
+
+// function first(arr) {
+//   varr = arr[1]
+//   if ( typeof varr= Number ) {
+//     return arr[2]; // complete this statement
+//   }
+//   return arr[3]; // complete this statement
+
+
+// }
+
+
+
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE
@@ -31,3 +51,6 @@ console.log(last(names));
   3
   Joe
 */
+
+
+
