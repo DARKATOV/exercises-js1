@@ -5,7 +5,7 @@
   The variable `lastFive` should contain the last five items of `everyone`
 */
 
-var everyone = [
+let everyone = [
   "Daniel",
   "Irina",
   "Rares",
@@ -15,8 +15,13 @@ var everyone = [
   "Swathi"
 ];
 
-var firstFive; // complete this statement
-var lastFive; // complete this statement
+let firstFive = [...everyone]; // complete this statement
+let lastFive = [... everyone]; // complete this statement
+
+firstFive = firstFive.splice(0,5); 
+lastFive = lastFive.splice(2, 8);
+
+// otra opccion ---- > lastFive = lastFive.splice(lastFive.length -5,5)
 
 /* 
   DO NOT EDIT BELOW THIS LINE
