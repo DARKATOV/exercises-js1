@@ -6,9 +6,17 @@
 
 var ukNations = ["Scotland", "Wales", "England", "Northern Ireland"];
 
+
 function isInUK(country) {
-  return; // complete this statement
+  return ukNations.includes(country);
 }
+
+// function isInUK(country) {
+//   if ( ukNations.includes(country) === true){}
+//     return country + true; }
+//   else {
+//     return ukNations.includes(country)   ; // complete this statement
+// }
 
 /* 
   DO NOT EDIT BELOW THIS LINE
