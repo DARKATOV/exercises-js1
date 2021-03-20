@@ -21,7 +21,7 @@ let lastFive = [... everyone]; // complete this statement
 firstFive = firstFive.splice(0,5); 
 lastFive = lastFive.splice(2, 8);
 
-// otra opccion ---- > lastFive = lastFive.splice(lastFive.length -5,5)
+// otra opccion automatica para los ultimos 5 terminos independientemente del numero sde terminos en el array ---- > lastFive = lastFive.splice(lastFive.length -5,5)
 
 /* 
   DO NOT EDIT BELOW THIS LINE
